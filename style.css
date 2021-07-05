@@ -1,0 +1,56 @@
+body,html{
+   margin: 0;
+   margin:0;
+   overflow-x: hidden;
+}
+body{
+   background-color: lightblue;
+}
+.img1
+{
+    height: 500px;
+    width: 100%;
+    padding: 5px;
+    align-items: center;
+    /* transition: all 2s;
+    box-shadow: 10px,10px,2px, white;
+    transition: 5s; */
+}
+
+.ran{
+    width:70px;
+    height: 70px;
+    border: 2px solid white;
+    border-radius: 100%;
+}
+
+.padd{
+    padding-top: 50px;
+}
+.center1{
+   float: center;
+}
+/* ------------------------index.php------------------------- */
+.carousel-showmanymoveone .carousel-control {
+    width: 4%;
+    background-image: none;
+ }
+ 
+ .carousel-showmanymoveone .carousel-control.left {
+    margin-left: 0;
+ }
+ 
+ .carousel-showmanymoveone .carousel-control.right {
+    margin-right: 0;
+ }
+ 
+ .carousel-showmanymoveone .cloneditem-1,
+ .carousel-showmanymoveone .cloneditem-2,
+ .carousel-showmanymoveone .cloneditem-3 {
+    display: none;
+ }
+ 
+ .carousel .item .col-xs-12 {
+    padding: 0;
+ }
+ 

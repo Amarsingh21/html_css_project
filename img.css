@@ -1,0 +1,37 @@
+body,html{
+    overflow-x: hidden;
+    background-color: aqua;
+    float: center;
+}
+h1{
+    background-color: pink;
+}
+img
+{
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+    margin-left: 100px;
+    transition: all 2s;
+    box-shadow: 10px,10px,2px, white;
+    transition: 5s;
+}
+img:hover
+{
+    opacity: 1;
+    transform: scale(1.2);
+    color: aliceblue;
+    border-color: black;
+    border-radius: 2px,red;
+    transform: rotatey(180deg);
+}
+
+h1::first-line {
+    font-family: Lucida Calligraphy;  
+    font-size: 2cm;  
+    color: red;  
+    text-shadow: 5px 8px 9px green;  
+    }   
+    h1{  
+    color: blue;  
+    }  
